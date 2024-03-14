@@ -19,7 +19,7 @@ const App = () => {
         <Stack.Screen name="Exe" component={ExerciseScreen} />
         <Stack.Screen name="Game" component={GameScreen} />
         <Stack.Screen name="Info" component={InfoScreen} />
-        <Stack.Screen name="Settings" component={Settings}/>
+        <Stack.Screen name="Settings" component={Settings} />
       </Stack.Navigator>
     </NavigationContainer>
   );
