@@ -1891,7 +1891,15 @@
   resolved "https://registry.npmjs.org/@react-navigation/elements/-/elements-1.3.29.tgz"
   integrity sha512-sMkqqQHlxdBxrBVw6E2a3LJjb9Hrb1ola8+zRgJn4Ox8iKtjqtWEdg349DPWU77VpIekcMLsqQvEtZox3XkXgA==
 
-"@react-navigation/native@^6.0.0":
+"@react-navigation/native-stack@^6.9.25":
+  version "6.9.25"
+  resolved "https://registry.npmjs.org/@react-navigation/native-stack/-/native-stack-6.9.25.tgz"
+  integrity sha512-bhJ5NC9RxJyG8O3kLA2Axv699Wih8MoPCUWD6bWFIwLC/k02bXOQd/a19hEJqlFd+YLA343z897yybpHtcEhZQ==
+  dependencies:
+    "@react-navigation/elements" "^1.3.29"
+    warn-once "^0.1.0"
+
+"@react-navigation/native@^6.0.0", "@react-navigation/native@^6.1.16":
   version "6.1.16"
   resolved "https://registry.npmjs.org/@react-navigation/native/-/native-6.1.16.tgz"
   integrity sha512-nlP9RrpNs0ogMQpYXURIIMZYOYvg51jvcC3wfE9GFKQO0Av+GsvWd/kPtliWzWmtFwPnqiu5dw4bCvNtfsB3bA==
@@ -5675,7 +5683,7 @@ react-is@^17.0.1:
   resolved "https://registry.npmjs.org/react-is/-/react-is-17.0.2.tgz"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
-"react-native-gesture-handler@>= 1.0.0":
+react-native-gesture-handler@^2.15.0, "react-native-gesture-handler@>= 1.0.0":
   version "2.15.0"
   resolved "https://registry.npmjs.org/react-native-gesture-handler/-/react-native-gesture-handler-2.15.0.tgz"
   integrity sha512-cmMGW8k86o/xgVTBZZOPohvR5re4Vh65PUxH4HbBBJAYTog4aN4wTVTUlnoky01HuSN8/X4h3tI/K3XLPoDnsg==
