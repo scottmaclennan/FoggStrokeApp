@@ -6,6 +6,7 @@ import MedScreen from './MedScreen';
 import ExerciseScreen from './ExerciseScreen';
 import GameScreen from './GameScreen';
 import InfoScreen from './InfoScreen';
+import Settings from './Settings';
 
 const Stack = createNativeStackNavigator();
 
@@ -18,6 +19,7 @@ const App = () => {
         <Stack.Screen name="Exe" component={ExerciseScreen} />
         <Stack.Screen name="Game" component={GameScreen} />
         <Stack.Screen name="Info" component={InfoScreen} />
+        <Stack.Screen name="Settings" component={Settings}/>
       </Stack.Navigator>
     </NavigationContainer>
   );
