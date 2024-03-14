@@ -1,10 +1,10 @@
 import React from 'react';
 import { Button, View, Text } from 'react-native';
 
-function HomeScreen({ navigation }) {
+function MedScreen({ navigation }) {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Home Screen</Text>
+      <Text>MedScreen</Text>
       <Button
         title="Go to Home"
         onPress={() => navigation.navigate('Home')}
@@ -13,4 +13,4 @@ function HomeScreen({ navigation }) {
   );
 }
 
-export default DetailsScreen;
+export default MedScreen;
